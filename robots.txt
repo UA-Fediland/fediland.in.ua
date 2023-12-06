@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://ua-fediland.de/sitemap.xml
