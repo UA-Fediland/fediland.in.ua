@@ -1,1 +1,0 @@
-# fediland.in.ua
