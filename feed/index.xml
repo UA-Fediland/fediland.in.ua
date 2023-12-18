@@ -9,35 +9,15 @@
 
 <channel>
 	<title>UA Fediland</title>
-	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
 	<description></description>
-	<lastBuildDate>Sun, 17 Dec 2023 16:28:13 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 18 Dec 2023 00:15:52 +0000</lastBuildDate>
 	<language>uk</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.4.2</generator>
-	<item>
-		<title>Привіт, світ!</title>
-		<link>/%d0%bf%d1%80%d0%b8%d0%b2%d1%96%d1%82-%d1%81%d0%b2%d1%96%d1%82/</link>
-					<comments>/%d0%bf%d1%80%d0%b8%d0%b2%d1%96%d1%82-%d1%81%d0%b2%d1%96%d1%82/#comments</comments>
-		
-		<dc:creator><![CDATA[Shizanit]]></dc:creator>
-		<pubDate>Sun, 17 Dec 2023 16:28:13 +0000</pubDate>
-				<category><![CDATA[Без категорії]]></category>
-		<guid isPermaLink="false">/?p=1</guid>
-
-					<description><![CDATA[Ласкаво просимо до WordPress. Це ваш перший запис. Редагуйте або видаліть, а потім починайте писати!]]></description>
-										<content:encoded><![CDATA[
-<p>Ласкаво просимо до WordPress. Це ваш перший запис. Редагуйте або видаліть, а потім починайте писати!</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>/%d0%bf%d1%80%d0%b8%d0%b2%d1%96%d1%82-%d1%81%d0%b2%d1%96%d1%82/feed/</wfw:commentRss>
-			<slash:comments>1</slash:comments>
-		
-		
-			</item>
-	</channel>
+</channel>
 </rss>
