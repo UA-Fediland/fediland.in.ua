@@ -90,7 +90,7 @@ export default function Home() {
               className="rounded-lg shadow-lg mx-auto"
             />
             <div>
-              <h2 className="text-3xl font-bold mb-4">Mastodon Social</h2>
+              <h2 className="text-4xl font-bold mb-4">Mastodon Social</h2>
               <p className="mb-6">
                 Ваша стрічка має бути заповнена тим, що вам важливо, а не тим, що корпорація вважає за належне вам
                 показати. Радикально інша соціальна мережа – повністю в руках людей.
@@ -124,7 +124,7 @@ export default function Home() {
                 className="rounded-lg shadow-lg mx-auto"
               />
             <div>
-              <h2 className="text-3xl font-bold mb-4">PeerTube</h2>
+              <h2 className="text-4xl font-bold mb-4">PeerTube</h2>
               <p className="mb-6">
                 З PeerTube більше ніяких непрозорих алгоритмів або незрозумілих правил модерації! Платформи PeerTube,
                 які ви відвідуєте, створюються, керуються та модеруються їх власниками.
@@ -158,7 +158,7 @@ export default function Home() {
               className="rounded-lg shadow-lg mx-auto"
             />
             <div>
-              <h2 className="text-3xl font-bold mb-4">Forgejo</h2>
+              <h2 className="text-4xl font-bold mb-4">Forgejo</h2>
               <p className="mb-6">
                 Поверніть собі контроль над процесом розробки програмного забезпечення, самостійно розміщуйте свої
                 проекти та залучайте всіх, хто бере участь у створенні якісного програмного забезпечення, до спільної
@@ -193,7 +193,7 @@ export default function Home() {
                 className="rounded-lg shadow-lg mx-auto"
               />
             <div>
-              <h2 className="text-3xl font-bold mb-4">Misskey</h2>
+              <h2 className="text-4xl font-bold mb-4">Misskey</h2>
               <p className="mb-6">Світ без обмежень: ваш простір в Misskey!</p>
               <div className="flex gap-4">
                 <Button asChild className="bg-[#7f7000] hover:bg-[#7f7000]/90 px-8">
@@ -224,7 +224,7 @@ export default function Home() {
                 className="rounded-lg shadow-lg mx-auto"
               />
             <div>
-              <h2 className="text-3xl font-bold mb-4">Matrix</h2>
+              <h2 className="text-4xl font-bold mb-4">Matrix</h2>
               <p className="mb-6">Відкрита мережа для безпечного, децентралізованого спілкування.</p>
               <div className="flex gap-4">
                 <Button asChild className="bg-[#7f7000] hover:bg-[#7f7000]/90 px-8">
