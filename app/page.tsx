@@ -55,7 +55,7 @@ export default function Home() {
             <div className="feature-icon">
               <Zap className="w-10 h-10 text-white" />
             </div>
-            <h2 className="text-2xl font-bold mb-3">Швидкість</h2>
+            <h2 className="text-3xl font-bold mb-3">Швидкість</h2>
             <p className="text-lg">Блискавична швидкість і надійність сервісів.</p>
           </div>
 
@@ -63,7 +63,7 @@ export default function Home() {
             <div className="feature-icon">
               <FileText className="w-10 h-10 text-white" />
             </div>
-            <h2 className="text-2xl font-bold mb-3">Приватність</h2>
+            <h2 className="text-3xl font-bold mb-3">Приватність</h2>
             <p className="text-lg">Ваші дані залишаються вашими – це наш пріоритет.</p>
           </div>
 
@@ -71,7 +71,7 @@ export default function Home() {
             <div className="feature-icon">
               <Settings className="w-10 h-10 text-white" />
             </div>
-            <h2 className="text-2xl font-bold mb-3">Відкритість</h2>
+            <h2 className="text-3xl font-bold mb-3">Відкритість</h2>
             <p className="text-lg">Маємо відкрите ПЗ, як і спілкування з адміністрацією.</p>
           </div>
         </div>
