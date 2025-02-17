@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fediland.in.ua/sitemap.xml
