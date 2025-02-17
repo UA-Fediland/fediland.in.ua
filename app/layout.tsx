@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "UA Fediland",
     images: [
       {
-        url: "https://pub-855d0d5a7d064c1aa394bcd9550d15a0.r2.dev/logo.webp",
+        url: "https://pub-855d0d5a7d064c1aa394bcd9550d15a0.r2.dev/background.webp",
         width: 1200,
         height: 630,
         alt: "UA Fediland Logo",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "UA Fediland",
     description: "Відкритість. Децентралізація. Інновації.",
-    images: ["https://pub-855d0d5a7d064c1aa394bcd9550d15a0.r2.dev/logo.webp"],
+    images: ["https://pub-855d0d5a7d064c1aa394bcd9550d15a0.r2.dev/background.webp"],
   },
   icons: {
     icon: [
