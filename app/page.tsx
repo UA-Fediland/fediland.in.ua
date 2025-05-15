@@ -83,7 +83,7 @@ export default function Home() {
         <section className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <Image
-              src="https://pub-855d0d5a7d064c1aa394bcd9550d15a0.r2.dev/mastodon.webp"
+              src="https://vwrinhz4a3iiasjx.public.blob.vercel-storage.com/mastodon.webp"
               alt="Mastodon"
               width={400}
               height={300}
@@ -117,7 +117,7 @@ export default function Home() {
         <section className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
           <Image
-                src="https://pub-855d0d5a7d064c1aa394bcd9550d15a0.r2.dev/peertube.webp"
+                src="https://vwrinhz4a3iiasjx.public.blob.vercel-storage.com/peertube.webp"
                 alt="PeerTube"
                 width={400}
                 height={300}
@@ -151,7 +151,7 @@ export default function Home() {
         <section className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <Image
-              src="https://pub-855d0d5a7d064c1aa394bcd9550d15a0.r2.dev/forgejo.webp"
+              src="https://vwrinhz4a3iiasjx.public.blob.vercel-storage.com/forgejo.webp"
               alt="Forgejo"
               width={400}
               height={300}
@@ -186,7 +186,7 @@ export default function Home() {
         <section className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
           <Image
-                src="https://pub-855d0d5a7d064c1aa394bcd9550d15a0.r2.dev/misskey.webp"
+                src="https://vwrinhz4a3iiasjx.public.blob.vercel-storage.com/misskey.webp"
                 alt="Misskey"
                 width={400}
                 height={300}
@@ -217,7 +217,7 @@ export default function Home() {
         <section className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
           <Image
-                src="https://pub-855d0d5a7d064c1aa394bcd9550d15a0.r2.dev/matrix.webp"
+                src="https://vwrinhz4a3iiasjx.public.blob.vercel-storage.com/matrix.webp"
                 alt="Misskey"
                 width={400}
                 height={300}

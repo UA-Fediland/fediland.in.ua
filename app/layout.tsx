@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "UA Fediland",
     images: [
       {
-        url: "https://pub-855d0d5a7d064c1aa394bcd9550d15a0.r2.dev/background.webp",
+        url: "https://vwrinhz4a3iiasjx.public.blob.vercel-storage.com/background.webp",
         width: 1200,
         height: 630,
         alt: "UA Fediland Logo",
@@ -29,24 +29,24 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "UA Fediland",
     description: "Відкритість. Децентралізація. Інновації.",
-    images: ["https://pub-855d0d5a7d064c1aa394bcd9550d15a0.r2.dev/background.webp"],
+    images: ["https://vwrinhz4a3iiasjx.public.blob.vercel-storage.com/background.webp"],
   },
   icons: {
     icon: [
       {
-        url: "https://pub-855d0d5a7d064c1aa394bcd9550d15a0.r2.dev/favicon.webp",
+        url: "https://vwrinhz4a3iiasjx.public.blob.vercel-storage.com/favicon.webp",
         type: "image/webp",
       },
     ],
     shortcut: [
       {
-        url: "https://pub-855d0d5a7d064c1aa394bcd9550d15a0.r2.dev/favicon.webp",
+        url: "https://vwrinhz4a3iiasjx.public.blob.vercel-storage.com/favicon.webp",
         type: "image/webp",
       },
     ],
     apple: [
       {
-        url: "https://pub-855d0d5a7d064c1aa394bcd9550d15a0.r2.dev/favicon.webp",
+        url: "https://vwrinhz4a3iiasjx.public.blob.vercel-storage.com/favicon.webp",
         type: "image/webp",
       },
     ],
