@@ -3,7 +3,6 @@
 import { useEffect } from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { Button } from "@/components/ui/button"
 import { Zap, FileText, Settings } from "lucide-react"
 
 export default function Home() {
@@ -78,36 +77,32 @@ export default function Home() {
       </section>
 
       {/* Services */}
-      <div className="space-y-24 py-20">
+      <div className="space-y-16 py-20">
         {/* Mastodon */}
         <section className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <Image
-              src="https://vwrinhz4a3iiasjx.public.blob.vercel-storage.com/mastodon.webp"
-              alt="Mastodon"
-              width={400}
-              height={300}
-              className="rounded-lg shadow-lg mx-auto"
-            />
-            <div>
-              <h2 className="text-4xl font-bold mb-4">Mastodon Social</h2>
-              <p className="mb-6">
-                Ваша стрічка має бути заповнена тим, що вам важливо, а не тим, що корпорація вважає за належне вам
-                показати. Радикально інша соціальна мережа – повністю в руках людей.
-              </p>
-              <div className="flex gap-4">
-                <Button asChild className="bg-[#7f7000] hover:bg-[#7f7000]/90 px-8">
-                  <Link href="https://soc.ua-fediland.de/">Перейти</Link>
-                </Button>
-                <Button
-                  asChild
-                  variant="outline"
-                  className="border-2 border-[#7f7000] hover:bg-[#7f7000]/10 text-[#7f7000]"
-                >
-                  <Link href="https://docs.fediland.in.ua/Mastodon/%D0%9E%D0%BF%D0%B8%D1%81" className="px-6">
+          <div className="service-card">
+            <div className="grid md:grid-cols-2 gap-8 items-center">
+              <Image
+                src="https://vwrinhz4a3iiasjx.public.blob.vercel-storage.com/mastodon.webp"
+                alt="Mastodon"
+                width={400}
+                height={300}
+                className="rounded-lg shadow-lg mx-auto"
+              />
+              <div>
+                <h2 className="text-4xl font-bold mb-4">Mastodon Social</h2>
+                <p className="mb-6 text-gray-300">
+                  Ваша стрічка має бути заповнена тим, що вам важливо, а не тим, що корпорація вважає за належне вам
+                  показати. Радикально інша соціальна мережа – повністю в руках людей.
+                </p>
+                <div className="flex gap-4">
+                  <Link href="https://soc.ua-fediland.de/" className="btn-primary">
+                    Перейти
+                  </Link>
+                  <Link href="https://docs.fediland.in.ua/Mastodon/%D0%9E%D0%BF%D0%B8%D1%81" className="btn-outline">
                     Документація
                   </Link>
-                </Button>
+                </div>
               </div>
             </div>
           </div>
@@ -115,33 +110,31 @@ export default function Home() {
 
         {/* PeerTube */}
         <section className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-          <Image
-                src="https://vwrinhz4a3iiasjx.public.blob.vercel-storage.com/peertube.webp"
-                alt="PeerTube"
-                width={400}
-                height={300}
-                className="rounded-lg shadow-lg mx-auto"
-              />
-            <div>
-              <h2 className="text-4xl font-bold mb-4">PeerTube</h2>
-              <p className="mb-6">
-                З PeerTube більше ніяких непрозорих алгоритмів або незрозумілих правил модерації! Платформи PeerTube,
-                які ви відвідуєте, створюються, керуються та модеруються їх власниками.
-              </p>
-              <div className="flex gap-4">
-                <Button asChild className="bg-[#7f7000] hover:bg-[#7f7000]/90 px-8">
-                  <Link href="https://peertube.in.ua/">Перейти</Link>
-                </Button>
-                <Button
-                  asChild
-                  variant="outline"
-                  className="border-2 border-[#7f7000] hover:bg-[#7f7000]/10 text-[#7f7000]"
-                >
-                  <Link href="https://docs.fediland.in.ua/guide/peertube.html" className="px-6">
+          <div className="service-card">
+            <div className="grid md:grid-cols-2 gap-8 items-center">
+              <div className="md:order-2">
+                <h2 className="text-4xl font-bold mb-4">PeerTube</h2>
+                <p className="mb-6 text-gray-300">
+                  З PeerTube більше ніяких непрозорих алгоритмів або незрозумілих правил модерації! Платформи PeerTube,
+                  які ви відвідуєте, створюються, керуються та модеруються їх власниками.
+                </p>
+                <div className="flex gap-4">
+                  <Link href="https://peertube.in.ua/" className="btn-primary">
+                    Перейти
+                  </Link>
+                  <Link href="https://docs.fediland.in.ua/guide/peertube.html" className="btn-outline">
                     Документація
                   </Link>
-                </Button>
+                </div>
+              </div>
+              <div className="md:order-1">
+                <Image
+                  src="https://vwrinhz4a3iiasjx.public.blob.vercel-storage.com/peertube.webp"
+                  alt="PeerTube"
+                  width={400}
+                  height={300}
+                  className="rounded-lg shadow-lg mx-auto"
+                />
               </div>
             </div>
           </div>
@@ -149,34 +142,30 @@ export default function Home() {
 
         {/* Forgejo */}
         <section className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <Image
-              src="https://vwrinhz4a3iiasjx.public.blob.vercel-storage.com/forgejo.webp"
-              alt="Forgejo"
-              width={400}
-              height={300}
-              className="rounded-lg shadow-lg mx-auto"
-            />
-            <div>
-              <h2 className="text-4xl font-bold mb-4">Forgejo</h2>
-              <p className="mb-6">
-                Поверніть собі контроль над процесом розробки програмного забезпечення, самостійно розміщуйте свої
-                проекти та залучайте всіх, хто бере участь у створенні якісного програмного забезпечення, до спільної
-                роботи.
-              </p>
-              <div className="flex gap-4">
-                <Button asChild className="bg-[#7f7000] hover:bg-[#7f7000]/90 px-8">
-                  <Link href="https://git.fediland.in.ua/">Перейти</Link>
-                </Button>
-                <Button
-                  asChild
-                  variant="outline"
-                  className="border-2 border-[#7f7000] hover:bg-[#7f7000]/10 text-[#7f7000]"
-                >
-                  <Link href="https://docs.fediland.in.ua/guide/forgejo.html" className="px-6">
+          <div className="service-card">
+            <div className="grid md:grid-cols-2 gap-8 items-center">
+              <Image
+                src="https://vwrinhz4a3iiasjx.public.blob.vercel-storage.com/forgejo.webp"
+                alt="Forgejo"
+                width={400}
+                height={300}
+                className="rounded-lg shadow-lg mx-auto"
+              />
+              <div>
+                <h2 className="text-4xl font-bold mb-4">Forgejo</h2>
+                <p className="mb-6 text-gray-300">
+                  Поверніть собі контроль над процесом розробки програмного забезпечення, самостійно розміщуйте свої
+                  проекти та залучайте всіх, хто бере участь у створенні якісного програмного забезпечення, до спільної
+                  роботи.
+                </p>
+                <div className="flex gap-4">
+                  <Link href="https://git.fediland.in.ua/" className="btn-primary">
+                    Перейти
+                  </Link>
+                  <Link href="https://docs.fediland.in.ua/guide/forgejo.html" className="btn-outline">
                     Документація
                   </Link>
-                </Button>
+                </div>
               </div>
             </div>
           </div>
@@ -184,30 +173,28 @@ export default function Home() {
 
         {/* Misskey */}
         <section className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-          <Image
-                src="https://vwrinhz4a3iiasjx.public.blob.vercel-storage.com/misskey.webp"
-                alt="Misskey"
-                width={400}
-                height={300}
-                className="rounded-lg shadow-lg mx-auto"
-              />
-            <div>
-              <h2 className="text-4xl font-bold mb-4">Misskey</h2>
-              <p className="mb-6">Світ без обмежень: ваш простір в Misskey!</p>
-              <div className="flex gap-4">
-                <Button asChild className="bg-[#7f7000] hover:bg-[#7f7000]/90 px-8">
-                  <Link href="https://mk.fediland.in.ua/">Перейти</Link>
-                </Button>
-                <Button
-                  asChild
-                  variant="outline"
-                  className="border-2 border-[#7f7000] hover:bg-[#7f7000]/10 text-[#7f7000]"
-                >
-                  <Link href="https://docs.fediland.in.ua/guide/misskey.html" className="px-6">
+          <div className="service-card">
+            <div className="grid md:grid-cols-2 gap-8 items-center">
+              <div className="md:order-2">
+                <h2 className="text-4xl font-bold mb-4">Misskey</h2>
+                <p className="mb-6 text-gray-300">Світ без обмежень: ваш простір в Misskey!</p>
+                <div className="flex gap-4">
+                  <Link href="https://mk.fediland.in.ua/" className="btn-primary">
+                    Перейти
+                  </Link>
+                  <Link href="https://docs.fediland.in.ua/guide/misskey.html" className="btn-outline">
                     Документація
                   </Link>
-                </Button>
+                </div>
+              </div>
+              <div className="md:order-1">
+                <Image
+                  src="https://vwrinhz4a3iiasjx.public.blob.vercel-storage.com/misskey.webp"
+                  alt="Misskey"
+                  width={400}
+                  height={300}
+                  className="rounded-lg shadow-lg mx-auto"
+                />
               </div>
             </div>
           </div>
@@ -215,30 +202,26 @@ export default function Home() {
 
         {/* Matrix */}
         <section className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-          <Image
+          <div className="service-card">
+            <div className="grid md:grid-cols-2 gap-8 items-center">
+              <Image
                 src="https://vwrinhz4a3iiasjx.public.blob.vercel-storage.com/matrix.webp"
-                alt="Misskey"
+                alt="Matrix"
                 width={400}
                 height={300}
                 className="rounded-lg shadow-lg mx-auto"
               />
-            <div>
-              <h2 className="text-4xl font-bold mb-4">Matrix</h2>
-              <p className="mb-6">Відкрита мережа для безпечного, децентралізованого спілкування.</p>
-              <div className="flex gap-4">
-                <Button asChild className="bg-[#7f7000] hover:bg-[#7f7000]/90 px-8">
-                  <Link href="/contacts">Перейти</Link>
-                </Button>
-                <Button
-                  asChild
-                  variant="outline"
-                  className="border-2 border-[#7f7000] hover:bg-[#7f7000]/10 text-[#7f7000]"
-                >
-                  <Link href="https://docs.fediland.in.ua/guide/matrix.html" className="px-6">
+              <div>
+                <h2 className="text-4xl font-bold mb-4">Matrix</h2>
+                <p className="mb-6 text-gray-300">Відкрита мережа для безпечного, децентралізованого спілкування.</p>
+                <div className="flex gap-4">
+                  <Link href="/contacts" className="btn-primary">
+                    Перейти
+                  </Link>
+                  <Link href="https://docs.fediland.in.ua/guide/matrix.html" className="btn-outline">
                     Документація
                   </Link>
-                </Button>
+                </div>
               </div>
             </div>
           </div>
@@ -261,4 +244,3 @@ export default function Home() {
     </main>
   )
 }
-
