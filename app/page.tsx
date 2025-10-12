@@ -83,7 +83,7 @@ export default function Home() {
           <div className="service-card">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <Image
-                src="https://vwrinhz4a3iiasjx.public.blob.vercel-storage.com/mastodon.webp"
+                src="https://4j84k2z9mtr6e5m6.public.blob.vercel-storage.com/mastodon.webp"
                 alt="Mastodon"
                 width={400}
                 height={300}
@@ -129,7 +129,7 @@ export default function Home() {
               </div>
               <div className="md:order-1">
                 <Image
-                  src="https://vwrinhz4a3iiasjx.public.blob.vercel-storage.com/peertube.webp"
+                  src="https://4j84k2z9mtr6e5m6.public.blob.vercel-storage.com/peertube.webp"
                   alt="PeerTube"
                   width={400}
                   height={300}
@@ -145,7 +145,7 @@ export default function Home() {
           <div className="service-card">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <Image
-                src="https://vwrinhz4a3iiasjx.public.blob.vercel-storage.com/forgejo.webp"
+                src="https://4j84k2z9mtr6e5m6.public.blob.vercel-storage.com/forgejo.webp"
                 alt="Forgejo"
                 width={400}
                 height={300}
@@ -189,7 +189,7 @@ export default function Home() {
               </div>
               <div className="md:order-1">
                 <Image
-                  src="https://vwrinhz4a3iiasjx.public.blob.vercel-storage.com/misskey.webp"
+                  src="https://4j84k2z9mtr6e5m6.public.blob.vercel-storage.com/misskey.webp"
                   alt="Misskey"
                   width={400}
                   height={300}
@@ -205,7 +205,7 @@ export default function Home() {
           <div className="service-card">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <Image
-                src="https://vwrinhz4a3iiasjx.public.blob.vercel-storage.com/matrix.webp"
+                src="https://4j84k2z9mtr6e5m6.public.blob.vercel-storage.com/matrix.webp"
                 alt="Matrix"
                 width={400}
                 height={300}

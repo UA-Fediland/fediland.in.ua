@@ -14,7 +14,7 @@ export function Header() {
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
             <Image
-              src="https://vwrinhz4a3iiasjx.public.blob.vercel-storage.com/logo.webp"
+              src="https://4j84k2z9mtr6e5m6.public.blob.vercel-storage.com/logo.webp"
               alt="UA Fediland Logo"
               width={48}
               height={48}
