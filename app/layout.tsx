@@ -5,7 +5,12 @@ import "./globals.css"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 
-const inter = Inter({ subsets: ["latin", "cyrillic"] })
+const inter = Inter({
+  subsets: ["latin", "cyrillic"],
+  display: "swap",
+  preload: true,
+  variable: "--font-inter",
+})
 
 export const metadata: Metadata = {
   title: "UA Fediland",
@@ -51,7 +56,7 @@ export const metadata: Metadata = {
       },
     ],
   },
-    generator: 'v0.dev'
+  generator: "v0.dev",
 }
 
 export default function RootLayout({
@@ -61,6 +66,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="uk">
+      <head>
+        <link rel="preconnect" href="https://4j84k2z9mtr6e5m6.public.blob.vercel-storage.com" />
+        <link rel="dns-prefetch" href="https://4j84k2z9mtr6e5m6.public.blob.vercel-storage.com" />
+      </head>
       <body className={inter.className}>
         <Header />
         {children}
