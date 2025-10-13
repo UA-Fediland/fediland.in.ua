@@ -8,8 +8,10 @@ const nextConfig = {
   },
   compress: true,
   poweredByHeader: false,
+  reactStrictMode: true,
+  swcMinify: true,
   compiler: {
-    removeConsole: process.env.NODE_ENV === 'production',
+    removeConsole: process.env.NODE_ENV === "production",
   },
   experimental: {
     optimizePackageImports: ['lucide-react'],
