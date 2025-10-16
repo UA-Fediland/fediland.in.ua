@@ -10,30 +10,30 @@ export default function Home() {
     <main className="pt-16">
       <HeroSection />
 
-      <section className="py-20 bg-[#11252E] features-section">
+      <section className="py-20 bg-ti-bg features-section">
         <div className="container mx-auto px-4 grid md:grid-cols-3 gap-12">
           <div className="text-center">
             <div className="feature-icon">
-              <Zap className="w-10 h-10 text-white" />
+              <Zap className="w-10 h-10 text-ti-fg" />
             </div>
-            <h2 className="text-3xl font-bold mb-3">Швидкість</h2>
-            <p className="text-lg">Блискавична швидкість і надійність сервісів.</p>
+            <h2 className="text-3xl font-bold mb-3 text-ti-fg">Швидкість</h2>
+            <p className="text-lg text-ti-fg/80">Блискавична швидкість і надійність сервісів.</p>
           </div>
 
           <div className="text-center">
             <div className="feature-icon">
-              <FileText className="w-10 h-10 text-white" />
+              <FileText className="w-10 h-10 text-ti-fg" />
             </div>
-            <h2 className="text-3xl font-bold mb-3">Приватність</h2>
-            <p className="text-lg">Ваші дані залишаються вашими – це наш пріоритет.</p>
+            <h2 className="text-3xl font-bold mb-3 text-ti-fg">Приватність</h2>
+            <p className="text-lg text-ti-fg/80">Ваші дані залишаються вашими – це наш пріоритет.</p>
           </div>
 
           <div className="text-center">
             <div className="feature-icon">
-              <Settings className="w-10 h-10 text-white" />
+              <Settings className="w-10 h-10 text-ti-fg" />
             </div>
-            <h2 className="text-3xl font-bold mb-3">Відкритість</h2>
-            <p className="text-lg">Маємо відкрите ПЗ, як і спілкування з адміністрацією.</p>
+            <h2 className="text-3xl font-bold mb-3 text-ti-fg">Відкритість</h2>
+            <p className="text-lg text-ti-fg/80">Маємо відкрите ПЗ, як і спілкування з адміністрацією.</p>
           </div>
         </div>
       </section>
@@ -53,8 +53,8 @@ export default function Home() {
                 loading="lazy"
               />
               <div>
-                <h2 className="text-4xl font-bold mb-4">Mastodon Social</h2>
-                <p className="mb-6 text-gray-300">
+                <h2 className="text-4xl font-bold mb-4 text-ti-fg">Mastodon Social</h2>
+                <p className="mb-6 text-ti-fg/70">
                   Ваша стрічка має бути заповнена тим, що вам важливо, а не тим, що корпорація вважає за належне вам
                   показати. Радикально інша соціальна мережа – повністю в руках людей.
                 </p>
@@ -80,8 +80,8 @@ export default function Home() {
           <div className="service-card">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="md:order-2">
-                <h2 className="text-4xl font-bold mb-4">PeerTube</h2>
-                <p className="mb-6 text-gray-300">
+                <h2 className="text-4xl font-bold mb-4 text-ti-fg">PeerTube</h2>
+                <p className="mb-6 text-ti-fg/70">
                   З PeerTube більше ніяких непрозорих алгоритмів або незрозумілих правил модерації! Платформи PeerTube,
                   які ви відвідуєте, створюються, керуються та модеруються їх власниками.
                 </p>
@@ -121,8 +121,8 @@ export default function Home() {
                 loading="lazy"
               />
               <div>
-                <h2 className="text-4xl font-bold mb-4">Forgejo</h2>
-                <p className="mb-6 text-gray-300">
+                <h2 className="text-4xl font-bold mb-4 text-ti-fg">Forgejo</h2>
+                <p className="mb-6 text-ti-fg/70">
                   Поверніть собі контроль над процесом розробки програмного забезпечення, самостійно розміщуйте свої
                   проекти та залучайте всіх, хто бере участь у створенні якісного програмного забезпечення, до спільної
                   роботи.
@@ -145,8 +145,8 @@ export default function Home() {
           <div className="service-card">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="md:order-2">
-                <h2 className="text-4xl font-bold mb-4">Misskey</h2>
-                <p className="mb-6 text-gray-300">Світ без обмежень: ваш простір в Misskey!</p>
+                <h2 className="text-4xl font-bold mb-4 text-ti-fg">Misskey</h2>
+                <p className="mb-6 text-ti-fg/70">Світ без обмежень: ваш простір в Misskey!</p>
                 <div className="flex gap-4">
                   <Link href="https://mk.fediland.in.ua/" className="btn-primary" prefetch={false}>
                     Перейти
@@ -183,8 +183,8 @@ export default function Home() {
                 loading="lazy"
               />
               <div>
-                <h2 className="text-4xl font-bold mb-4">Matrix</h2>
-                <p className="mb-6 text-gray-300">Відкрита мережа для безпечного, децентралізованого спілкування.</p>
+                <h2 className="text-4xl font-bold mb-4 text-ti-fg">Matrix</h2>
+                <p className="mb-6 text-ti-fg/70">Відкрита мережа для безпечного, децентралізованого спілкування.</p>
                 <div className="flex gap-4">
                   <Link href="/contacts" className="btn-primary" prefetch={true}>
                     Перейти
@@ -209,8 +209,8 @@ export default function Home() {
       </div>
 
       {/* Final CTA */}
-      <section className="bg-[#121F25] py-32 text-center">
-        <h2 className="text-4xl font-bold">Від людей, для людей!</h2>
+      <section className="bg-ti-bg-inv py-32 text-center">
+        <h2 className="text-4xl font-bold text-ti-fg">Від людей, для людей!</h2>
       </section>
     </main>
   )

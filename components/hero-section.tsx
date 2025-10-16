@@ -26,12 +26,12 @@ export function HeroSection() {
       <div className="parallax-bg" />
       <div className="absolute inset-0 bg-black/30" />
       <div className="hero-content">
-        <h1 className="text-5xl md:text-6xl font-bold mb-4">
+        <h1 className="text-5xl md:text-6xl font-bold mb-4 text-ti-fg">
           Відкритість. Децентралізація.
           <br />
           Інновації.
         </h1>
-        <p className="text-xl mb-8">Творимо майбутнє разом!</p>
+        <p className="text-xl mb-8 text-ti-fg">Творимо майбутнє разом!</p>
       </div>
       <button
         onClick={scrollToContent}
