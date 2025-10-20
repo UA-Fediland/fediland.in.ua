@@ -1,13 +1,17 @@
-import { MetadataRoute } from 'next'
+import type { MetadataRoute } from "next"
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: 'https://fediland.in.ua',
+      url: "https://fediland.in.ua",
       lastModified: new Date(),
     },
     {
-      url: 'https://fediland.in.ua/contacts',
+      url: "https://fediland.in.ua/rules",
+      lastModified: new Date(),
+    },
+    {
+      url: "https://fediland.in.ua/contacts",
       lastModified: new Date(),
     },
   ]

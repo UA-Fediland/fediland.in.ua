@@ -31,6 +31,11 @@ export function Header() {
                 </Link>
               </li>
               <li>
+                <Link href="/rules" className="text-ti-fg hover:text-ti-fg/80 transition-colors">
+                  Правила
+                </Link>
+              </li>
+              <li>
                 <Link href="/contacts" className="text-ti-fg hover:text-ti-fg/80 transition-colors">
                   Контакти
                 </Link>
@@ -77,6 +82,15 @@ export function Header() {
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Домівка
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/rules"
+                  className="text-ti-fg text-2xl hover:text-ti-fg/80 transition-colors"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Правила
                 </Link>
               </li>
               <li>
