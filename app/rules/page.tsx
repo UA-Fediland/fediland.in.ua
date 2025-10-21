@@ -26,9 +26,6 @@ export default function RulesPage() {
               <Shield className="w-10 h-10 text-ti-fg" />
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-4 text-ti-fg">Правила</h1>
-            <p className="text-ti-fg/70 text-lg max-w-2xl mx-auto">
-              Наші правила створені для того, щоб кожен почувався комфортно та безпечно в нашій спільноті
-            </p>
           </div>
 
           {/* Rules List */}
