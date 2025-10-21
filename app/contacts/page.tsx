@@ -8,7 +8,7 @@ export default function ContactsPage() {
       <main className="flex-1 flex items-center justify-center py-16">
         <div className="container max-w-3xl mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold text-center mb-4 text-ti-fg">Контакти</h1>
-          <p className="text-center text-ti-fg/70 mb-12 text-lg">Зв'яжіться з нами будь-яким зручним способом</p>
+          <br />
 
           <div className="grid md:grid-cols-2 gap-6">
             {/* Email Card */}
@@ -17,7 +17,7 @@ export default function ContactsPage() {
                 <Mail className="w-8 h-8 text-ti-fg" />
               </div>
               <h2 className="text-2xl font-bold mb-3 text-ti-fg">Пошта</h2>
-              
+
               <a href="mailto:support@ua-fediland.de" className="contact-link">
                 support@ua-fediland.de
               </a>
@@ -29,7 +29,7 @@ export default function ContactsPage() {
                 <AtSign className="w-8 h-8 text-ti-fg" />
               </div>
               <h2 className="text-2xl font-bold mb-3 text-ti-fg">Fediverse</h2>
-              
+
               <a
                 href="https://soc.ua-fediland.de/@Shizanit"
                 className="contact-link"
@@ -42,9 +42,7 @@ export default function ContactsPage() {
           </div>
 
           {/* Additional Info Section */}
-          <div className="mt-12 text-center">
-            
-          </div>
+          <div className="mt-12 text-center"></div>
         </div>
       </main>
     </div>
