@@ -1,3 +1,5 @@
+import { Shield } from "lucide-react"
+
 export const dynamic = "force-static"
 
 export default function RulesPage() {
@@ -18,13 +20,28 @@ export default function RulesPage() {
     <div className="min-h-screen flex flex-col">
       <main className="flex-1 py-16">
         <div className="container max-w-4xl mx-auto px-4">
-          <h1 className="text-4xl font-bold text-center mb-12 text-ti-fg">Правила</h1>
-          <div className="bg-ti-bg-alt/40 backdrop-blur-sm border border-ti-fg/10 rounded-lg p-8">
+          {/* Header Section */}
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center justify-center w-20 h-20 bg-ti-accent rounded-2xl mb-6">
+              <Shield className="w-10 h-10 text-ti-fg" />
+            </div>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-ti-fg">Правила</h1>
+            <p className="text-ti-fg/70 text-lg max-w-2xl mx-auto">
+              Наші правила створені для того, щоб кожен почувався комфортно та безпечно в нашій спільноті
+            </p>
+          </div>
+
+          {/* Rules List */}
+          <div className="rules-card">
             <ol className="space-y-6">
               {rules.map((rule, index) => (
-                <li key={index} className="flex gap-4">
-                  <span className="text-ti-accent font-bold text-lg flex-shrink-0">{index + 1}.</span>
-                  <p className="text-ti-fg/90 text-lg leading-relaxed">{rule}</p>
+                <li key={index} className="rule-item">
+                  <div className="flex gap-4">
+                    <div className="rule-number">
+                      <span className="rule-number-text">{index + 1}</span>
+                    </div>
+                    <p className="text-ti-fg/90 text-lg leading-relaxed flex-1">{rule}</p>
+                  </div>
                 </li>
               ))}
             </ol>

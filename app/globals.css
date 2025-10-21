@@ -206,6 +206,128 @@ body {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
+.contact-card {
+  background: rgba(14, 49, 62, 0.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--color-ti-accent), var(--color-ti-accent-secondary));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.contact-card:hover {
+  background: rgba(14, 49, 62, 0.8);
+  border-color: rgba(127, 112, 0, 0.3);
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.contact-card:hover::before {
+  opacity: 1;
+}
+
+.contact-icon-wrapper {
+  width: 64px;
+  height: 64px;
+  background: var(--color-ti-accent);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.contact-card:hover .contact-icon-wrapper {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.contact-link {
+  display: inline-block;
+  color: var(--color-ti-accent);
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  word-break: break-all;
+  position: relative;
+  padding-bottom: 2px;
+}
+
+.contact-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--color-ti-accent);
+  transition: width 0.3s ease;
+}
+
+.contact-link:hover::after {
+  width: 100%;
+}
+
+.contact-link:hover {
+  color: var(--color-ti-accent);
+  opacity: 0.8;
+}
+
+.rules-card {
+  background: rgba(14, 49, 62, 0.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 2.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.rules-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--color-ti-accent), var(--color-ti-accent-secondary));
+}
+
+.rule-item {
+  padding: 1rem;
+}
+
+.rule-number {
+  width: 48px;
+  height: 48px;
+  background: var(--color-ti-accent);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.rule-number-text {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: var(--color-ti-fg);
+}
+
 .btn-primary {
   display: inline-flex;
   align-items: center;

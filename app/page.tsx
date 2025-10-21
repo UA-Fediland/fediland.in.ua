@@ -45,7 +45,7 @@ export default function Home() {
           <div className="service-card">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <Image
-                src="https://4j84k2z9mtr6e5m6.public.blob.vercel-storage.com/mastodon.webp"
+                src="/images/design-mode/mastodon.webp"
                 alt="Mastodon"
                 width={400}
                 height={300}
@@ -96,7 +96,7 @@ export default function Home() {
               </div>
               <div className="md:order-1">
                 <Image
-                  src="https://4j84k2z9mtr6e5m6.public.blob.vercel-storage.com/peertube.webp"
+                  src="/images/design-mode/peertube.webp"
                   alt="PeerTube"
                   width={400}
                   height={300}
@@ -113,7 +113,7 @@ export default function Home() {
           <div className="service-card">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <Image
-                src="https://4j84k2z9mtr6e5m6.public.blob.vercel-storage.com/forgejo.webp"
+                src="/images/design-mode/forgejo.webp"
                 alt="Forgejo"
                 width={400}
                 height={300}
@@ -158,7 +158,7 @@ export default function Home() {
               </div>
               <div className="md:order-1">
                 <Image
-                  src="https://4j84k2z9mtr6e5m6.public.blob.vercel-storage.com/misskey.webp"
+                  src="/images/design-mode/misskey.webp"
                   alt="Misskey"
                   width={400}
                   height={300}
@@ -175,7 +175,7 @@ export default function Home() {
           <div className="service-card">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <Image
-                src="https://4j84k2z9mtr6e5m6.public.blob.vercel-storage.com/matrix.webp"
+                src="/images/design-mode/matrix.webp"
                 alt="Matrix"
                 width={400}
                 height={300}

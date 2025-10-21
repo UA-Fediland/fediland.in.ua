@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@radix-ui/react-slot':
         specifier: ^1.1.2
-        version: 1.2.3(@types/react@19.0.0)(react@19.0.0)
+        version: 1.2.3(@types/react@19.0.2)(react@19.0.0)
       class-variance-authority:
         specifier: ^0.7.1
         version: 0.7.1
@@ -27,10 +27,10 @@ importers:
         specifier: latest
         version: 0.4.6(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       react:
-        specifier: ^19
+        specifier: ^19.0.0
         version: 19.0.0
       react-dom:
-        specifier: ^19
+        specifier: ^19.0.0
         version: 19.0.0(react@19.0.0)
       tailwind-merge:
         specifier: ^2.5.5
@@ -49,11 +49,11 @@ importers:
         specifier: ^22
         version: 22.0.0
       '@types/react':
-        specifier: ^19
-        version: 19.0.0
+        specifier: ^19.0.2
+        version: 19.0.2
       '@types/react-dom':
-        specifier: ^19
-        version: 19.0.0
+        specifier: ^19.0.2
+        version: 19.0.2(@types/react@19.0.2)
       eslint:
         specifier: ^9.17.0
         version: 9.17.0(jiti@2.6.1)
@@ -475,11 +475,13 @@ packages:
   '@types/node@22.0.0':
     resolution: {integrity: sha512-VT7KSYudcPOzP5Q0wfbowyNLaVR8QWUdw+088uFWwfvpY6uCWaXpqV6ieLAu9WBcnTa7H4Z5RLK8I5t2FuOcqw==}
 
-  '@types/react-dom@19.0.0':
-    resolution: {integrity: sha512-1KfiQKsH1o00p9m5ag12axHQSb3FOU9H20UTrujVSkNhuCrRHiQWFqgEnTNK5ZNfnzZv8UWrnXVqCmCF9fgY3w==}
+  '@types/react-dom@19.0.2':
+    resolution: {integrity: sha512-c1s+7TKFaDRRxr1TxccIX2u7sfCnc3RxkVyBIUA2lCpyqCF+QoAwQ/CBg7bsMdVwP120HEH143VQezKtef5nCg==}
+    peerDependencies:
+      '@types/react': ^19.0.0
 
-  '@types/react@19.0.0':
-    resolution: {integrity: sha512-MY3oPudxvMYyesqs/kW1Bh8y9VqSmf+tzqw3ae8a9DZW68pUe3zAdHeI1jc6iAysuRdACnVknHP8AhwD4/dxtg==}
+  '@types/react@19.0.2':
+    resolution: {integrity: sha512-USU8ZI/xyKJwFTpjSVIrSeHBVAGagkHQKPNbxeWwql/vDmnTIBgx+TJnhFnj1NXgz8XfprU0egV2dROLGpsBEg==}
 
   '@typescript-eslint/eslint-plugin@8.34.0':
     resolution: {integrity: sha512-QXwAlHlbcAwNlEEMKQS2RCgJsgXrTJdjXT08xEgbPFa2yYQgVjBymxP5DrfrE7X7iodSzd9qBUHUycdyVJTW1w==}
@@ -2083,18 +2085,18 @@ snapshots:
 
   '@nolyfill/is-core-module@1.0.39': {}
 
-  '@radix-ui/react-compose-refs@1.1.2(@types/react@19.0.0)(react@19.0.0)':
+  '@radix-ui/react-compose-refs@1.1.2(@types/react@19.0.2)(react@19.0.0)':
     dependencies:
       react: 19.0.0
     optionalDependencies:
-      '@types/react': 19.0.0
+      '@types/react': 19.0.2
 
-  '@radix-ui/react-slot@1.2.3(@types/react@19.0.0)(react@19.0.0)':
+  '@radix-ui/react-slot@1.2.3(@types/react@19.0.2)(react@19.0.0)':
     dependencies:
-      '@radix-ui/react-compose-refs': 1.1.2(@types/react@19.0.0)(react@19.0.0)
+      '@radix-ui/react-compose-refs': 1.1.2(@types/react@19.0.2)(react@19.0.0)
       react: 19.0.0
     optionalDependencies:
-      '@types/react': 19.0.0
+      '@types/react': 19.0.2
 
   '@rtsao/scc@1.1.0': {}
 
@@ -2193,11 +2195,11 @@ snapshots:
     dependencies:
       undici-types: 6.11.1
 
-  '@types/react-dom@19.0.0':
+  '@types/react-dom@19.0.2(@types/react@19.0.2)':
     dependencies:
-      '@types/react': 19.0.0
+      '@types/react': 19.0.2
 
-  '@types/react@19.0.0':
+  '@types/react@19.0.2':
     dependencies:
       csstype: 3.1.3
 
