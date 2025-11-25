@@ -139,64 +139,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
-        {/* Misskey */}
-        <section className="container mx-auto px-4">
-          <div className="service-card">
-            <div className="grid md:grid-cols-2 gap-8 items-center">
-              <div className="md:order-2">
-                <h2 className="text-4xl font-bold mb-4 text-ti-fg">Misskey</h2>
-                <p className="mb-6 text-ti-fg/70">Світ без обмежень: ваш простір в Misskey!</p>
-                <div className="flex gap-4">
-                  <Link href="https://mk.fediland.in.ua/" className="btn-primary" prefetch={false}>
-                    Перейти
-                  </Link>
-                  <Link href="https://docs.fediland.in.ua/guide/misskey.html" className="btn-outline" prefetch={false}>
-                    Документація
-                  </Link>
-                </div>
-              </div>
-              <div className="md:order-1">
-                <Image
-                  src="/images/design-mode/misskey.webp"
-                  alt="Misskey"
-                  width={400}
-                  height={300}
-                  className="rounded-lg shadow-lg mx-auto"
-                  loading="lazy"
-                />
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Matrix */}
-        <section className="container mx-auto px-4">
-          <div className="service-card">
-            <div className="grid md:grid-cols-2 gap-8 items-center">
-              <Image
-                src="/images/design-mode/matrix.webp"
-                alt="Matrix"
-                width={400}
-                height={300}
-                className="rounded-lg shadow-lg mx-auto"
-                loading="lazy"
-              />
-              <div>
-                <h2 className="text-4xl font-bold mb-4 text-ti-fg">Matrix</h2>
-                <p className="mb-6 text-ti-fg/70">Відкрита мережа для безпечного, децентралізованого спілкування.</p>
-                <div className="flex gap-4">
-                  <Link href="/contacts" className="btn-primary" prefetch={true}>
-                    Перейти
-                  </Link>
-                  <Link href="https://docs.fediland.in.ua/guide/matrix.html" className="btn-outline" prefetch={false}>
-                    Документація
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
       </div>
 
       {/* Dots Separator */}
