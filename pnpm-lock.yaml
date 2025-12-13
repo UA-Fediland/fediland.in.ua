@@ -31,7 +31,7 @@ importers:
         version: 2.5.5
       tailwindcss-animate:
         specifier: ^1.0.7
-        version: 1.0.7(tailwindcss@4.1.9)
+        version: 1.0.7(tailwindcss@4.1.16)
       tw-animate-css:
         specifier: latest
         version: 1.4.0
@@ -58,8 +58,8 @@ importers:
         specifier: ^8.5
         version: 8.5.0
       tailwindcss:
-        specifier: ^4.1.9
-        version: 4.1.9
+        specifier: ^4.1.16
+        version: 4.1.16
       typescript:
         specifier: ^5
         version: 5.0.2
@@ -1721,6 +1721,9 @@ packages:
     resolution: {integrity: sha512-bl6mpH3T7I3UFxuvDEXLxy/VuFxBk5bbzplh7tXI68mwMokNYd1t9qPBHlnyTwfa4JGC4zP516I1hYYtQ/vspA==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
+
+  tailwindcss@4.1.16:
+    resolution: {integrity: sha512-pONL5awpaQX4LN5eiv7moSiSPd/DLDzKVRJz8Q9PgzmAdd1R4307GQS2ZpfiN7ZmekdQrfhZZiSE5jkLR4WNaA==}
 
   tailwindcss@4.1.9:
     resolution: {integrity: sha512-anBZRcvfNMsQdHB9XSGzAtIQWlhs49uK75jfkwrqjRUbjt4d7q9RE1wR1xWyfYZhLFnFX4ahWp88Au2lcEw5IQ==}
@@ -3646,9 +3649,11 @@ snapshots:
 
   tailwind-merge@2.5.5: {}
 
-  tailwindcss-animate@1.0.7(tailwindcss@4.1.9):
+  tailwindcss-animate@1.0.7(tailwindcss@4.1.16):
     dependencies:
-      tailwindcss: 4.1.9
+      tailwindcss: 4.1.16
+
+  tailwindcss@4.1.16: {}
 
   tailwindcss@4.1.9: {}
 
